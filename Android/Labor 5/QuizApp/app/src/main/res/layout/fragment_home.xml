@@ -1,0 +1,59 @@
+<?xml version="1.0" encoding="utf-8"?>
+<FrameLayout xmlns:android="http://schemas.android.com/apk/res/android"
+    xmlns:app="http://schemas.android.com/apk/res-auto"
+    xmlns:tools="http://schemas.android.com/tools"
+    android:layout_width="match_parent"
+    android:layout_height="match_parent"
+    tools:context=".fragments.navmenu.HomeFragment">
+
+    <androidx.constraintlayout.widget.ConstraintLayout
+        android:layout_width="match_parent"
+        android:layout_height="match_parent">
+
+        <TextView
+            android:id="@+id/homeTextView"
+            android:layout_width="wrap_content"
+            android:layout_height="wrap_content"
+            android:layout_marginBottom="456dp"
+            android:text="@string/homeTextView"
+            android:textColor="#673AB7"
+            android:textSize="20sp"
+            app:layout_constraintBottom_toBottomOf="parent"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.495"
+            app:layout_constraintStart_toStartOf="parent" />
+
+        <Button
+            android:id="@+id/homeTestYourSkillsButton"
+            android:layout_width="302dp"
+            android:layout_height="58dp"
+            android:layout_marginTop="36dp"
+            android:text="@string/homeTestYourSkillsButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeTextView" />
+
+        <Button
+            android:id="@+id/homeReadQuestionsButton"
+            android:layout_width="300dp"
+            android:layout_height="54dp"
+            android:layout_marginTop="36dp"
+            android:text="@string/homeReadQuestionsButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeTestYourSkillsButton" />
+
+        <Button
+            android:id="@+id/homeCreateQuestionButton"
+            android:layout_width="297dp"
+            android:layout_height="57dp"
+            android:layout_marginTop="36dp"
+            android:text="@string/homeCreateQuestionButton"
+            app:layout_constraintEnd_toEndOf="parent"
+            app:layout_constraintHorizontal_bias="0.502"
+            app:layout_constraintStart_toStartOf="parent"
+            app:layout_constraintTop_toBottomOf="@+id/homeReadQuestionsButton" />
+    </androidx.constraintlayout.widget.ConstraintLayout>
+</FrameLayout>

@@ -1,0 +1,100 @@
+Mi a kulonbseg a val es a var kozott Kotlinban ?
+val nem megvaltoztathato , var igen
+var nem megvaltoztathato , val igen
+nincs kulonbseg
+val csak constans elemeket tud megkapni
+Minden ossztaly Kotlinban deklaralas nelkul milyen lathatosagi tipust kap ?
+public
+final
+sealed
+abstract
+Melyikkel lehet tobbsoros kommentet letrehozni Kotlinban ?
+/**/
+//
+''''''
+#**#
+Melyik constructorok elerhetoek Kotlinban ?
+Elsodleges es masodlagos constructor
+Elsodleges constructor
+Masodlagos constructor
+egyik sem
+Hogyan kapod meg egy String hosszat kotlinban ?
+str.length
+length(str)
+str.lengthOf
+str.lengthOf(String)
+Mit jelent az , hogy immutable variable ?
+Valtozo, amely nem modosithato, csak olvashato
+Valtozo, amely megvaltoztathato
+A karakterlancok interpolaciojara hasznalt valtozo
+A fentiek kozul egyik sem
+Melyik kulcsszoval definialunk egy funkciot Kotlinban ?
+fun
+func
+function
+main
+Az alabbiak kozul melyik hasznaljuk a null exception kezelesere ?
+Elvis Operator
+Range
+Sealed Class
+Lambda function
+Hogyan hozzunk letre egy arraylist-et Kotlinban ?
+val list = arrayListOf(1, 2, 3)
+val set = hashSetOf(1, 2, 3)
+enum class Color {RED, GREEN, BLUE}
+val map = hashMapOf(1 to "one", 2 to "two", 3 to "three")
+Melyik nem egy alap adattipus Kotlinban ?
+Lists
+Arrays
+Strings
+Numbers
+Mi az activity androidban ?
+A kepernyon megjeleno muveletek vegrehajtasaert felelos
+Az aplikacio tartalmat manageli
+Screen UI
+Ezek kozul egyik sem
+Mi az android broadcast receivers eletciklusa ?
+onRecieve()
+send intent()
+implicitBroadcast()
+sendBroadcast(), sendOrderBroadcast(), and sendStickyBroadcast().
+Kotelezo-e meghivni androidban az onCreate() es az onStart() fugvenyeket ?
+Nem
+Igen
+Csak az onCreate()-et kotelezo
+Egyik sem
+Mivel tudsz lealitani egy activity-t androidban ?
+finish()
+onDestory()
+finishActivity()
+Egyik sem
+Melyik thread-en mukodnek a broadcast receivers androidban ?
+Main Thread
+Worker Thread
+Activity Thread
+Egyik sem
+Melyik a parent class service-nek androidban ?
+ContextWrapper
+Context
+ContextThemeWrapper
+Object
+Melyik nem kapcsolodik a fragment osztalyhoz androidban ?
+cursorFragment
+listFragment
+dialogFragment
+preferenceFragment
+Melyik componenst NEM aktivalja az intent androidban ?
+contentProvider
+services
+activity
+broadcastReceiver
+Melyiket hasznalod ha megszeretned osztani az adatokat az osszes alkalmazas kozott androidban ?
+Content provider
+Shared Preferences
+Internal Storage
+SQLite Databases
+Mi fut a hatterben, es nincs UI osszetevoje androidban ?
+Services
+Intents
+Applications
+Content Providers
